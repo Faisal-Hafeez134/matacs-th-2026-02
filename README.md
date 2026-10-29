@@ -1,8 +1,8 @@
 # AI Proposal Triage – Design
 
-**Name:** [Your Full Name]
+**Name:** Faisal Hafeez
 **Reference:** MATACS-TH-2026-02
-**Time spent:** [e.g. 1 hour 15 minutes]
+**Time spent:** 1 hour 15 minutes
 
 ## Files
 
@@ -38,7 +38,6 @@ python score.py            # uses sample_extraction.json + criteria.json, writes
 | `score.py` | Deterministic gate, scoring, flags, ranking |
 
 ## How I used AI tools
+I used Claude to talk through the flow, draft the prompt and write the first version of the scoring script. I checked each proposal against the criteria myself and changed the output where I disagreed. For example, I checked that C's "weekly progress reports" were not counted as a monitoring plan, because the criterion is about monitoring the solar system after install, not reporting during the build.
 
-[Edit this so it matches what you actually did.]
-
-I used Claude to talk through the flow, draft the prompt and write the first version of the scoring script. I checked each proposal against the criteria myself and changed the output where I disagreed. One example: [describe a real correction you made, e.g. the draft treated C's "weekly progress reports" as meeting the monitoring requirement; I changed it because the criterion is about monitoring the solar system after install, not reporting during the build.]
+Where I disagreed with or corrected the AI: In the AI's first draft of ranking.json, C had a score of null because it was flagged for the hidden instruction. I changed it to show the provisional score (53.7), still flagged and with no rank. A null hides useful information: the reviewer can see that even with the hidden instruction ignored, C would still sit below A and E, so the manipulation would not have helped it. I updated WRITEUP.md to match.
