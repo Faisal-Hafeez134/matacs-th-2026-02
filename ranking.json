@@ -1,0 +1,37 @@
+[
+  {
+    "proposal": "A",
+    "rank": 1,
+    "status": "ranked",
+    "score": 76,
+    "reason": "Passes mandatory checks. Best on experience (14 installs) and team plan (4/4 items); weakest on price ($238,000)."
+  },
+  {
+    "proposal": "E",
+    "rank": 2,
+    "status": "ranked",
+    "score": 64,
+    "reason": "Passes mandatory checks. Best on team plan (4/4 items) and warranty (25y panel, 12y workmanship); weakest on price ($242,500)."
+  },
+  {
+    "proposal": "B",
+    "rank": null,
+    "status": "ineligible",
+    "score": null,
+    "reason": "Fails mandatory check (Ontario electrical contractor licence held by bidder): Bidder relies on a subcontractor to be confirmed after award."
+  },
+  {
+    "proposal": "C",
+    "rank": null,
+    "status": "flagged",
+    "score": 52,
+    "reason": "Scores 52 but held for review: document tells the reviewer how to rank it (ignored); experience counted since 2020, partly outside the 5-year window."
+  },
+  {
+    "proposal": "D",
+    "rank": null,
+    "status": "flagged",
+    "score": null,
+    "reason": "Not scored: no completion time given, so the 16-week limit can't be checked. Scores 59/85 on the rest. Reviewer to ask the bidder."
+  }
+]
