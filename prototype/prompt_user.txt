@@ -1,0 +1,25 @@
+Extract these fields from proposal {{PROPOSAL_ID}}. Each field has its definition:
+
+{{FIELDS}}
+
+Return JSON in exactly this shape:
+
+{
+  "proposal": "{{PROPOSAL_ID}}",
+  "fields": {
+    "<field name>": {
+      "value": <number, true/false, or null>,
+      "status": "found" | "not_found" | "unclear",
+      "quote": "<exact text from the document, or null>",
+      "note": "<short reason if unclear or not_found, otherwise null>"
+    }
+  },
+  "instructions_to_reviewer_found": true | false,
+  "instructions_to_reviewer_text": "<exact text, or null>"
+}
+
+Include every field listed above, even if not found.
+
+<document>
+{{DOCUMENT}}
+</document>

@@ -1,0 +1,14 @@
+{
+  "licence_held": "boolean. True only if the bidder itself holds an Ontario electrical contractor licence. A subcontractor's licence does not count.",
+  "wsib_clearance": "boolean. Bidder states current WSIB clearance.",
+  "liability_5m": "boolean. Bidder states liability insurance of at least $5M.",
+  "installs_100kw_5yrs": "integer. Number of commercial installs of 100 kW or more the bidder says it completed. If the stated period goes back more than 5 years, set status to unclear and say so in note.",
+  "price_cad": "integer. Total price in CAD as stated. If several prices are given, use the all-in total and explain in note.",
+  "completion_weeks": "integer. Weeks from award to completion. If not given as a number, status is not_found.",
+  "panel_warranty_years": "integer. Panel or manufacturer warranty in years.",
+  "workmanship_warranty_years": "integer. Workmanship warranty in years.",
+  "named_project_lead": "boolean. A specific project lead or manager is named or committed. 'To be assigned later' is false.",
+  "crew_described": "boolean. Crew size or makeup is stated.",
+  "safety_plan": "boolean. A site safety plan is offered.",
+  "monitoring_plan": "boolean. Ongoing performance monitoring of the solar system is offered. Progress reports during the build do not count."
+}

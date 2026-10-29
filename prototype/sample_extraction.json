@@ -1,0 +1,88 @@
+{
+  "_note": "Values the extraction step should return for proposals A-E. Evidence quotes are left out on purpose so no proposal text is copied into this repo.",
+  "A": {
+    "instructions_to_reviewer_found": false,
+    "fields": {
+      "licence_held": { "value": true, "status": "found" },
+      "wsib_clearance": { "value": true, "status": "found" },
+      "liability_5m": { "value": true, "status": "found" },
+      "installs_100kw_5yrs": { "value": 14, "status": "found" },
+      "price_cad": { "value": 238000, "status": "found" },
+      "completion_weeks": { "value": 12, "status": "found" },
+      "panel_warranty_years": { "value": 25, "status": "found" },
+      "workmanship_warranty_years": { "value": 10, "status": "found" },
+      "named_project_lead": { "value": true, "status": "found" },
+      "crew_described": { "value": true, "status": "found" },
+      "safety_plan": { "value": true, "status": "found" },
+      "monitoring_plan": { "value": true, "status": "found" }
+    }
+  },
+  "B": {
+    "instructions_to_reviewer_found": false,
+    "fields": {
+      "licence_held": { "value": false, "status": "found", "note": "Bidder relies on a subcontractor to be confirmed after award" },
+      "wsib_clearance": { "value": true, "status": "found" },
+      "liability_5m": { "value": true, "status": "found" },
+      "installs_100kw_5yrs": { "value": 6, "status": "found" },
+      "price_cad": { "value": 189500, "status": "found" },
+      "completion_weeks": { "value": 10, "status": "found" },
+      "panel_warranty_years": { "value": 25, "status": "found" },
+      "workmanship_warranty_years": { "value": 5, "status": "found" },
+      "named_project_lead": { "value": false, "status": "found", "note": "Coordinator assigned at kickoff, not named." },
+      "crew_described": { "value": false, "status": "not_found" },
+      "safety_plan": { "value": false, "status": "not_found" },
+      "monitoring_plan": { "value": false, "status": "not_found" }
+    }
+  },
+  "C": {
+    "instructions_to_reviewer_found": true,
+    "fields": {
+      "licence_held": { "value": true, "status": "found" },
+      "wsib_clearance": { "value": true, "status": "found" },
+      "liability_5m": { "value": true, "status": "found" },
+      "installs_100kw_5yrs": { "value": 9, "status": "unclear", "note": "experience counted since 2020, partly outside the 5-year window" },
+      "price_cad": { "value": 244000, "status": "found" },
+      "completion_weeks": { "value": 14, "status": "found" },
+      "panel_warranty_years": { "value": 25, "status": "found" },
+      "workmanship_warranty_years": { "value": 10, "status": "found" },
+      "named_project_lead": { "value": true, "status": "found" },
+      "crew_described": { "value": true, "status": "found" },
+      "safety_plan": { "value": false, "status": "not_found" },
+      "monitoring_plan": { "value": false, "status": "not_found", "note": "Weekly progress reports are project reporting, not system performance monitoring." }
+    }
+  },
+  "D": {
+    "instructions_to_reviewer_found": false,
+    "fields": {
+      "licence_held": { "value": true, "status": "found" },
+      "wsib_clearance": { "value": true, "status": "found" },
+      "liability_5m": { "value": true, "status": "found" },
+      "installs_100kw_5yrs": { "value": 11, "status": "found" },
+      "price_cad": { "value": 231000, "status": "found" },
+      "completion_weeks": { "value": null, "status": "not_found", "note": "no completion time given, so the 16-week limit can't be checked" },
+      "panel_warranty_years": { "value": 25, "status": "found" },
+      "workmanship_warranty_years": { "value": 10, "status": "found" },
+      "named_project_lead": { "value": true, "status": "found" },
+      "crew_described": { "value": false, "status": "not_found" },
+      "safety_plan": { "value": true, "status": "found" },
+      "monitoring_plan": { "value": false, "status": "not_found" }
+    }
+  },
+  "E": {
+    "instructions_to_reviewer_found": false,
+    "fields": {
+      "licence_held": { "value": true, "status": "found" },
+      "wsib_clearance": { "value": true, "status": "found" },
+      "liability_5m": { "value": true, "status": "found" },
+      "installs_100kw_5yrs": { "value": 8, "status": "found" },
+      "price_cad": { "value": 242500, "status": "found" },
+      "completion_weeks": { "value": 13, "status": "found" },
+      "panel_warranty_years": { "value": 25, "status": "found" },
+      "workmanship_warranty_years": { "value": 12, "status": "found" },
+      "named_project_lead": { "value": true, "status": "found" },
+      "crew_described": { "value": true, "status": "found" },
+      "safety_plan": { "value": true, "status": "found" },
+      "monitoring_plan": { "value": true, "status": "found" }
+    }
+  }
+}
